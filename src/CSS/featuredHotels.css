@@ -1,0 +1,90 @@
+.cardwrapper{
+    /* width: 100%; */
+    /* margin: 10px auto; */
+    background-image: linear-gradient(#C0D8C0 5%, rgb(172, 243, 222) 90%);
+    border-radius: 5px;
+
+    -webkit-box-shadow:2px 0px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 0px 0px 1px rgba(201, 201, 201, 0.47);
+    padding: 0px;
+    margin: 20px;
+  }
+.featuredHotelHeading{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+
+  background: linear-gradient(to right, #C0D8C0,
+  #08ff6f, #23bbcf, #a09c78);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+
+}
+.cardrow{
+   display:  flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-flow: wrap;
+}
+.card {
+    width: 20%;
+    transition: 0.3s;
+    border-radius: 15px;
+/* border: 2px solid white; */
+    /* margin-bottom: 50px; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    /* height: 30px; */ 
+    
+  }
+  .card:hover{
+    transform: scale(1.00);
+    box-shadow: 0 0 40px -10px grey;
+  }
+.card>img{
+  width: 100px;
+  border-radius: 25px;
+}
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: teal;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  @media screen and (max-width: 1000px){
+    .card{
+      width: 40%;
+    }
+  }
+
+  @media screen and (max-width: 1000px){
+    .cardwrapper{
+      width: 100%;
+    }
+    .featuredHotelHeading{
+      padding: 20px;
+      font-size: 20px;
+    }
+    .card{
+      width: 80%;
+    }
+  }

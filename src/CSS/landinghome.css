@@ -1,0 +1,84 @@
+.showcase{
+     background: url('https://images.pexels.com/photos/458917/pexels-photo-458917.jpeg?auto=compress&cs=tinysrgb&w=400') no-repeat center/cover; 
+    height: 550px;
+    /* background-repeat: no-repeat; */
+    -webkit-box-shadow:2px 0px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 0px 0px 1px rgba(201, 201, 201, 0.47);
+    /* padding: 0px; */
+    margin: 20px;
+    /* margin-top: 0px; */
+    /* background-color: #C0D8C0;  */
+    /* background-image: linear-gradient(teal 5%, rgb(0, 255, 179) 90%); */
+    border-radius: 25px;
+  }
+  .showcase .overlay{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    -webkit-box-shadow:2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+
+  }
+  #logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    background: linear-gradient(to right, rgb(13, 80, 80),
+    #ff4e08, #23bbcf, #a09c78);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  }
+
+  .search{
+      display: flex;
+      align-items: center;
+      padding-left: 6px;
+      margin: 60px;
+      -webkit-box-shadow:2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      justify-content: space-between;
+      /* background-color: #008080; */
+      border-radius: 40px;
+      background-image: linear-gradient(rgb(157, 247, 247) 5%, rgb(180, 204, 197) 90%) ;
+    }
+    p{
+      color: white;
+      font-weight: 600;
+    }
+  .homeSearchInput{
+    border: none;
+    outline: none;
+    background-color: rgb(197, 199, 197);
+    color: gray;
+    height: 25px;
+    width: 150px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.optionCounterBtn{
+  width: 35px;
+  height: 25px;
+  background-color: rgb(184, 184, 184);
+  color: gray;
+  cursor: pointer;
+  margin: 10px;
+}
+.searchBtn{
+  background-color: rgb(184, 184, 184);
+   text-transform: uppercase;
+  cursor: pointer;
+text-decoration: none;
+  margin: 10px;
+  height: 25px;
+  width: 10%;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-weight: 600;
+}
+.searchBtn:hover{
+  background-color: transparent;
+  color: #ff4e08;
+}

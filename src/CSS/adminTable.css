@@ -1,0 +1,30 @@
+.top{
+    -webkit-box-shadow:2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px;
+    margin: 20px;
+    background-color: #008080;
+}
+
+h2{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.bottom{
+    -webkit-box-shadow:2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+    display: flex;
+}
+ 
+.bottom #image{
+    width: 10px;  
+    height: 10px;
+    border-radius: 20px;
+ } 
+ .actionbtn{
+    background-color: red;
+ }

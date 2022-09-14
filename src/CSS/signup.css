@@ -1,0 +1,104 @@
+.logContainer{
+  width: 100vw;
+  /* height: 100vh;
+  */
+  position: sticky;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  color: white;
+
+}
+.login form input{
+    margin: 5px 0;
+    width: 10px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-family: inherit;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: none;
+  }
+  #email {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+  }
+  #password{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .COVER{
+    border: 5px solid #008080;
+    height: 200px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow:2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    background-image: linear-gradient(#C0D8C0 5%, rgb(172, 243, 222) 90%);
+    
+  }
+
+  .form #loginBtn{
+    /* margin-top: 5px; */
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+
+  .login .form button{
+    background-color: #008080;
+    color: #fff;
+    padding: 8px;
+    margin-top: 5px;
+    border: 2px solid #589681;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: background-color 0.4s;
+  }
+  
+  .login .form button:hover{
+    cursor: pointer;
+    background-color: transparent;
+  }
+  #navlink{
+    text-transform: capitalize;
+    color: #589681;
+  }
+  #navlink:hover{
+    /* background-color: gray; */
+    color: rgb(247, 247, 247);
+  }
+  #linkss{
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(155, 150, 145);
+    /* border-bottom: 1px solid rgb(163, 161, 158); */
+    padding-right: 10px;
+    font-weight: 700;
+  }
+  .overlay{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    color: white;
+
+  }
+  .COVER>div{
+    align-items: center;
+  }
